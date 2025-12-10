@@ -343,6 +343,7 @@
 }
 
 * {
+  color-scheme: only light;
   scroll-behavior: smooth;
   box-sizing: border-box;
   padding: 0px auto;
