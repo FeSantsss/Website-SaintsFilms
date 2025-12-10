@@ -366,4 +366,8 @@
   .container-triangle {
     transform: rotate(180deg) translateY(248px) translateX(175px) scale(15%);
   }
+
+  .h2-slogan-1 {
+    font-size: clamp(1.5rem, 6vw, 2.5rem);
+  }
 }
