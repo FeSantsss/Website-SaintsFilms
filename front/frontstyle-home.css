@@ -320,12 +320,11 @@
   margin: 0 auto;
   font-weight: 200;
   max-width: 100%;
+  font-size: 35px;
+  margin: 0 auto;
   overflow: hidden;
-  font-size: clamp(2rem, 5vw, 3rem);
-  line-height: 1;
-  word-wrap: normal;
-  word-break: normal;
-  hyphens: auto;
+  line-height: 1.2;
+  word-wrap: break-word;
 }
 
 .h2-slogan-2 {
@@ -335,12 +334,11 @@
   margin: 0 auto;
   font-weight: 600;
   max-width: 100%;
+  font-size: 45px;
+  margin: 0 auto;
   overflow: hidden;
-  font-size: clamp(2rem, 7vw, 4rem);
-  line-height: 1;
-  word-wrap: normal;
-  word-break: normal;
-  hyphens: auto;;
+  line-height: 1.2;
+  word-wrap: break-word;
 }
 
 * {
