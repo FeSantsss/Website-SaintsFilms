@@ -124,4 +124,6 @@
     box-sizing: border-box;
     padding: 0px auto;
     margin: 0px auto;
+    width: 100%;
+    overflow-x: hidden;
 }
