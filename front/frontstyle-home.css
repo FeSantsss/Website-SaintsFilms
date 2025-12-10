@@ -92,6 +92,7 @@
 .logo-saints{
     width: auto;
     height: auto;
+    margin: auto;
 }
 .container-main{
     background-color: black;
@@ -109,14 +110,14 @@
   font-family: 'font-sora', sans-serif;
   color: #ffffff;
   font-size: 45px;
-  margin: 0;
+  margin: 0 auto;
   font-weight: 200;
 }
 .h2-slogan-2{
   font-family: 'font-sora', sans-serif;
   color: #ffffff;
   font-size: 45px;
-  margin: 0;
+  margin: 0 auto;
   font-weight: 600
 }
 * {
