@@ -272,6 +272,7 @@
   color: black;
   font-weight: 300;
   margin: 0 8px;
+  font-size: camp(1rem, 2.5vw, 1.2rem);
 }
 
 .container-footer {
@@ -313,7 +314,7 @@
   font-weight: 200;
   max-width: 100%;
   overflow: hidden;
-  font-size: clamp(1.2rem, 5vw, 3rem);
+  font-size: clamp(2rem, 5vw, 3rem);
   line-height: 1.2;
   word-wrap: break-word;
 }
@@ -326,7 +327,7 @@
   font-weight: 600;
   max-width: 100%;
   overflow: hidden;
-  font-size: clamp(1.2rem, 5vw, 3rem);
+  font-size: clamp(2rem, 5vw, 3rem);
   line-height: 1.2;
   word-wrap: break-word;
 }
