@@ -251,7 +251,8 @@
 }
 
 .container-header {
-  background-color: rgb(255, 255, 255);
+  background-color: #ffffff;
+  forced-color-adjust: auto;
   text-align: center;
 }
 
@@ -297,6 +298,8 @@
   background-color: black;
   text-align: center;
   padding: 90px;
+  max-width: 900px auto;
+  margin: 0 auto;
 }
 
 #p-direitosreserv {
