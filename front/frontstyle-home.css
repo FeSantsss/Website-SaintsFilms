@@ -332,7 +332,7 @@
   overflow: hidden;
   font-size: clamp(2.8rem, 7vw, 4rem);
   line-height: 1.2;
-  word-wrap: break-word;
+  word-wrap: normal;
 }
 
 * {
