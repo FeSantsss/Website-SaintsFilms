@@ -362,3 +362,8 @@
   position: absolute;
   transform: rotate(180deg) translateY(242px) translateX(170px) scale(20%);
 }
+@media (max-width: 600px) {
+  .container-triangle {
+    transform: rotate(180deg) translateY(248px) translateX(175px) scale(15%);
+  }
+}
