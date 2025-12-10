@@ -273,7 +273,7 @@
   color: black;
   font-weight: 300;
   margin: 0 8px;
-  font-size: camp(1rem, 2.5vw, 1.2rem);
+  font-size: clamp(1.1rem, 2.5vw, 1.2rem);
 }
 
 .container-footer {
@@ -327,7 +327,7 @@
   color: white;
   font-weight: 600;
   font-size: clamp(1.2rem, 4.8vw, 3.2rem);
-  line-height: 1.23;
+  line-height: 1.25;
   font-weight: 600;
 }
 
@@ -335,8 +335,30 @@
   color-scheme: light;
   scroll-behavior: smooth;
   box-sizing: border-box;
-  padding: 0px auto;
-  margin: 0px auto;
+  padding: 0px;
+  margin: 0px;
   width: 100%;
   overflow-x: hidden;
+  scrollbar-color: black white;
+  scrollbar-width: thin;
+}
+.p-global {
+  font-family: montserrat, sans-serif;
+  color: white;
+  font-size: clamp(0.8rem, 3vw, 1rem);
+  margin: 20px auto;
+  overflow: hidden;
+  line-height: 1.5;
+  word-wrap: break-word;
+}
+.container-triangle {
+  width: auto;
+  height: auto;
+  margin: 0px;
+  padding: 0px;
+  max-width: 100%;
+  max-height: 100%;
+  position: relative;
+  position: absolute;
+  transform: rotate(180deg) translateY(242px) translateX(170px) scale(20%);
 }
