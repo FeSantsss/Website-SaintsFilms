@@ -304,6 +304,9 @@
   color: white;
   font-size: 20px;
   margin: 0 auto;
+  overflow: hidden;
+  line-height: 1.2;
+  word-wrap: break-word;
 }
 
 .h2-slogan-1 {
@@ -314,7 +317,7 @@
   font-weight: 200;
   max-width: 100%;
   overflow: hidden;
-  font-size: clamp(2rem, 5vw, 3rem);
+  font-size: clamp(2.6rem, 5vw, 3rem);
   line-height: 1.2;
   word-wrap: break-word;
 }
@@ -327,7 +330,7 @@
   font-weight: 600;
   max-width: 100%;
   overflow: hidden;
-  font-size: clamp(2rem, 5vw, 3rem);
+  font-size: clamp(2.8rem, 7vw, 4rem);
   line-height: 1.2;
   word-wrap: break-word;
 }
