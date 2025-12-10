@@ -77,10 +77,10 @@
     padding: 10px;
 }
 .link-interno{
-    font-family: montserrat, sans-serif;
+    font-family: font-sora, sans-serif;
     text-decoration: none;
     color: black;
-    font-weight: bold;
+    font-weight: 300;
     margin: 0 8px;
 }
 .container-footer{
@@ -96,7 +96,6 @@
 }
 .container-main{
     background-color: black;
-    min-height: 400px;
     text-align: center;
     padding: 90px;
 }
@@ -109,7 +108,7 @@
 .h2-slogan-1{
   font-family: 'font-sora', sans-serif;
   color: #ffffff;
-  font-size: 45px;
+  font-size: 30px;
   margin: 0 auto;
   font-weight: 200;
 }
@@ -121,7 +120,8 @@
   font-weight: 600
 }
 * {
+    scroll-behavior: smooth;
     box-sizing: border-box;
-    padding: 0px;
-    margin: 0px;
+    padding: 0px auto;
+    margin: 0px auto;
 }
