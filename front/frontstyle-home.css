@@ -279,14 +279,12 @@
 .container-footer {
   background-image: url(midia/images/IMG_3454_VSCO_edited_edited.jpg);
   text-align: center;
-  padding: 120px;
+  padding: 90px;
   font-family: montserrat, sans-serif;
   width: 100%;
   max-width: 100%;
   overflow: hidden;
-  background-size: cover;
   background-position: center;
-  background-repeat: no-repeat;
 }
 
 .logo-saints {
@@ -295,7 +293,6 @@
   margin: auto;
   max-width: 100%;
   max-height: 100%;
-  margin-top: -85px;
 }
 
 .container-main {
@@ -324,7 +321,7 @@
   font-weight: 200;
   max-width: 100%;
   overflow: hidden;
-  font-size: clamp(2.6rem, 5vw, 3rem);
+  font-size: clamp(2rem, 5vw, 3rem);
   line-height: 1;
   word-wrap: break-word;
   word-break: keep-all;
@@ -339,7 +336,7 @@
   font-weight: 600;
   max-width: 100%;
   overflow: hidden;
-  font-size: clamp(2.8rem, 7vw, 4rem);
+  font-size: clamp(2rem, 7vw, 4rem);
   line-height: 1;
   word-wrap: break-word;
   word-break: keep-all;
@@ -347,7 +344,7 @@
 }
 
 * {
-  color-scheme: only light;
+  color-scheme: light;
   scroll-behavior: smooth;
   box-sizing: border-box;
   padding: 0px auto;
