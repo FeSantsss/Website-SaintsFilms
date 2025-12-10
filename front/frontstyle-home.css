@@ -323,9 +323,9 @@
   overflow: hidden;
   font-size: clamp(2rem, 5vw, 3rem);
   line-height: 1;
-  word-wrap: break-word;
-  word-break: keep-all;
-  hyphens: manual;
+  word-wrap: normal;
+  word-break: normal;
+  hyphens: auto;
 }
 
 .h2-slogan-2 {
@@ -338,9 +338,9 @@
   overflow: hidden;
   font-size: clamp(2rem, 7vw, 4rem);
   line-height: 1;
-  word-wrap: break-word;
-  word-break: keep-all;
-  hyphens: manual;
+  word-wrap: normal;
+  word-break: normal;
+  hyphens: auto;;
 }
 
 * {
