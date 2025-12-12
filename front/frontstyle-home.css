@@ -521,3 +521,10 @@ footer {
     font-size: 20px;
   }
 }
+@media (max-width: 300px) {
+  .p-normal {
+    font-size: clamp(0.5rem, 4.5vw, 0.8rem);
+    transform: translate(10%, -21px);
+    position: absolute; 
+  }
+}
