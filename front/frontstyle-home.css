@@ -376,6 +376,7 @@ footer {
   scrollbar-color: black white;
   scrollbar-width: thin;
 }
+
 .p-global {
   font-family: montserrat, sans-serif;
   font-size: clamp(0.8rem, 3vw, 1rem);
