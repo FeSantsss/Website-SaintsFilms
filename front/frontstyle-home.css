@@ -280,6 +280,7 @@
   color: rgb(157, 154, 154);
   transition: 0.5s;
   font-size: 20px;
+  filter: blur(0.1rem);
 }
 
 
@@ -295,6 +296,7 @@
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+  display: flex;
 }
 
 .logo-saints {
@@ -306,7 +308,7 @@
   transition: 0.4s;
 }
 .logo-saints:hover {
-  transform: scale(1.1);
+  transform: scale(0.98);
   transition: 0.4s;
   transition-behavior: smooth;
 }
@@ -336,7 +338,9 @@
   font-size: clamp(1.8rem, 5vw, 3.2rem);
   line-height: 1.25;
   font-weight: 200;
-  transition: 0.4s;
+  transition: 
+    ease 0.4s
+  ;
   transition-behavior: smooth;
 }
 
@@ -384,6 +388,9 @@
   position: absolute;
   transform: rotate(180deg) translateY(242.9px) translateX(170px) scale(20%);
 }
+ 
+
+
 @media (max-width: 600px) {
   .container-triangle {
     transform: rotate(180deg) translateY(248.8px) translateX(175px) scale(15%);
@@ -394,9 +401,14 @@
   }
 
   .link-interno {
-    font-size: clamp(0.7rem, 3.5vw, 1.1rem);
+    font-size: clamp(0.6rem, 3.5vw, 1.1rem);
   }
   .link-interno:hover {
-    font-size: clamp(0.8rem, 4vw, 1.2rem);
+    font-size: clamp(0.9rem, 4vw, 1.2rem);
+  }
+}
+@media (max-width: 350px) {
+  .container-triangle {
+    transform: rotate(180deg) translateY(248.6px) translateX(174px) scale(12%);
   }
 }
