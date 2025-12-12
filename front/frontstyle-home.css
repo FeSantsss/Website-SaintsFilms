@@ -392,11 +392,11 @@ footer {
 .p-normal {
   font-family: font-sora, sans-serif;
   font-weight: 200; 
-  transform: translate(3%, -21px);
+  transform: translate(4%, -21px);
   position: absolute; 
   overflow: hidden;
   overflow-x: auto;
-  width: 90%;
+  width: 87%;
 }
 
 .toggle-contact {
@@ -506,6 +506,12 @@ footer {
   .link-interno:hover {
     font-size: clamp(0.9rem, 4vw, 1.2rem);
   }
+  .p-normal {
+    font-size: clamp(0.7rem, 4vw, 1rem);
+    transform: translate(7%, -21px);
+    position: absolute; 
+    width: 85%;
+  }
 }
 @media (max-width: 350px) {
   .container-triangle {
@@ -513,7 +519,7 @@ footer {
   }
   .p-normal {
     font-size: clamp(0.6rem, 4vw, 0.9rem);
-    transform: translate(7%, -21px);
+    transform: translate(6%, -21px);
     position: absolute; 
   }
 }
