@@ -263,6 +263,8 @@
   --gray-hover: #48484a;     /* hover */
   --gray-disabled: #636366;  /* desabilitado */
 
+  --gradient-perfect-blackgray: linear-gradient(180deg,#2c2c2e 0%,#1d1d1f 60%,#121212 100%);
+
 
 }
 
@@ -286,6 +288,7 @@
 #special{
   font-weight: 600;
   width: 97%;
+  color: var(--gradient-perfect-blackgray);
 }
 
 .link-interno {
@@ -307,13 +310,13 @@
 }
 
 footer {
-  background-color: rgb(255, 255, 255);
+  background-color: var(--white-main);
   width: 100%;
   height: 100%;
 }
 
 .container-footer {
-  background-color: #ffffff;
+  background-color: var(--white-main);
   display: flex;
   flex-direction: column;
   padding: 22px;
@@ -341,12 +344,7 @@ footer {
 }
 
 .container-main {
-  background: linear-gradient(
-  180deg,
-  #2c2c2e 0%,
-  #1d1d1f 60%,
-  #121212 100%
-  );
+  background: var(--gradient-perfect-blackgray);
   text-align: center;
   padding: 90px;
   max-width: 900px auto;
@@ -395,8 +393,11 @@ footer {
   padding: 0;
   margin: 0;
   overflow-x: hidden;
-  scrollbar-color: var(--gray-disabled) white;
+  scrollbar-color: var(--gray-disabled) var(--white-main);
   scrollbar-width: thin;
+}
+a, button {
+cursor: pointer;
 }
 
 .p-global {
@@ -459,8 +460,12 @@ footer {
   transition-behavior: smooth;
 }
 .link-external:visited {
-  color: black;
   font-weight: bold;
+}
+.link-external:hover {
+  color: var(--gray-disabled);
+  transition: 0.5s; 
+  transition-behavior: smooth;
 }
 
 
