@@ -375,6 +375,11 @@ footer {
   transition-behavior: smooth;
 }
 
+.visually-hidden {
+  position: absolute;
+  left: -9999px;
+}
+
 .h2-slogan-2 {
   font-family: font-sora, sans-serif;
   color: #f5f5f7;
