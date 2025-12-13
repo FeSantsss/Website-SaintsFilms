@@ -341,7 +341,12 @@ footer {
 }
 
 .container-main {
-  background-color: var(--black-main);
+  background: linear-gradient(
+  180deg,
+  #2c2c2e 0%,
+  #1d1d1f 60%,
+  #121212 100%
+  );
   text-align: center;
   padding: 90px;
   max-width: 900px auto;
